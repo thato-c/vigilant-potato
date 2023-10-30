@@ -6,6 +6,8 @@
 <h1>Create a New Licence</h1>
 
 <form asp-controller="Licence" asp-action="Create" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
     <div class="form-group">
         <label asp-for="Name">Licence Name</label>
         <input asp-for="Name" class="form-control" />
