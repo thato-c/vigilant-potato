@@ -12,5 +12,7 @@ namespace LicenceService.Models
 
         [Column(TypeName = "decimal(10, 2)")]
         public decimal Cost { get; set; }
+
+        public ICollection<LicencePurchase> LicencePurchases { get; set; }
     }
 }
