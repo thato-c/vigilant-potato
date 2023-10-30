@@ -1,0 +1,43 @@
+﻿@model List<Licence>
+@{
+}
+
+<h2>Licences</h2>
+
+@if (Model != null)
+{
+    <table class="table">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Cost
+            </th>
+        </tr>
+        @foreach (var licence in Model)
+        {
+            if (licence != null)
+            {
+                <tr>
+                    <td>
+                        @licence.Name
+                    </td>
+                    <td>
+                        @licence.Description
+                    </td>
+                    <td>
+                        @licence.Cost
+                    </td>
+                </tr>
+            }
+        }
+    </table>
+}
+else
+{
+    <p>@ViewBag.Message</p>
+}
