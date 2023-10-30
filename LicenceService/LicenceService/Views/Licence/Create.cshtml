@@ -24,5 +24,11 @@
         <span asp-validation-for="Cost" class="text-danger"></span>
     </div>
 
+    <div class="form-group">
+        <label asp-for="ValidityMonths">Licence Duration (Months)</label>
+        <input asp-for="ValidityMonths" class="form-control" />
+        <span asp-validation-for="ValidityMonths" class="text-danger"></span>
+    </div>
+
     <button type="submit">Add Licence</button>
 </form>

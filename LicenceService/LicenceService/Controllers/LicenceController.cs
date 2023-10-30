@@ -45,7 +45,8 @@ namespace LicenceService.Controllers
                 {
                     Name = model.Name,
                     Description = model.Description,
-                    Cost = model.Cost
+                    Cost = model.Cost,
+                    ValidityMonths = model.ValidityMonths
                 };
 
                 // Add and save the new licence to the database

@@ -14,5 +14,8 @@ namespace LicenceService.ViewModels
         [Required]
         [Column(TypeName = "decimal(10, 2)")]
         public decimal Cost { get; set; }
+
+
+        public int ValidityMonths { get; set; } = 1;
     }
 }

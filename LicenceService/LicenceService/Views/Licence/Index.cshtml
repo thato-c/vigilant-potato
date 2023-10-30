@@ -21,6 +21,9 @@
             <th>
                 Cost
             </th>
+            <th>
+                Duration (Months)
+            </th>
         </tr>
         @foreach (var licence in Model)
         {
@@ -35,6 +38,9 @@
                     </td>
                     <td>
                         @licence.Cost
+                    </td>
+                    <td>
+                        @licence.ValidityMonths
                     </td>
                 </tr>
             }
