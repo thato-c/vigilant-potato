@@ -88,3 +88,6 @@ C:\Users\tchit\OneDrive\vigilant-potato\LicenceService\LicenceService\bin\Debug\
 C:\Users\tchit\OneDrive\vigilant-potato\LicenceService\LicenceService\bin\Debug\net6.0\xunit.assert.dll
 C:\Users\tchit\OneDrive\vigilant-potato\LicenceService\LicenceService\bin\Debug\net6.0\xunit.core.dll
 C:\Users\tchit\OneDrive\vigilant-potato\LicenceService\LicenceService\bin\Debug\net6.0\xunit.execution.dotnet.dll
+C:\Users\tchit\OneDrive\vigilant-potato\LicenceService\LicenceService\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\tchit\OneDrive\vigilant-potato\LicenceService\LicenceService\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\tchit\OneDrive\vigilant-potato\LicenceService\LicenceService\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
